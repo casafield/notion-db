@@ -22,7 +22,7 @@ Python 3.x
 ### Sample
 
 ```Python
-from notion-db import *
+from notiondb import *
 
 database = NotionDB(
     'secret token',

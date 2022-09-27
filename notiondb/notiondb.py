@@ -39,7 +39,7 @@ class NotionDB:
     #     return None
 
 
-    def _response_to_record_array(response):
+    def _response_to_record_array(self, response):
         database = []
         for column in response["results"]:
             database.append(Record(column["properties"]))
